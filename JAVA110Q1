@@ -1,0 +1,35 @@
+class Cal_area
+{
+   int width;
+   int length;
+   int height;
+   int r;
+   
+   void setW(int w)  
+   {
+      width=w;
+   }
+   void setH(int h)  
+   {
+      height=h;
+   }
+   void setH(int l) 
+    {
+      length=l;
+   }
+    void setH(int r) 
+    {
+      r=r;
+   }
+   
+    void setWindows(int w,int r)
+   {
+      width=w;
+      height=h;
+   }
+   void setWindows(int w,int h,String s)
+   {
+      width=w;
+      height=h;
+      name=s;
+   }
